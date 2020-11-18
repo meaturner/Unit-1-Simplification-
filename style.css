@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    color: #7b7979;
+    line-height: 30px;
+    font-family: 'Handlee', cursive;
+}
+
+h1{
+    margin: 50px auto;
+    font-size: 50px;
+    font-weight: bold;
+    color: #303030;
+    box-shadow: inset 0 -3px goldenrod;
+    width: 375px;
+}
+
+h2{
+    font-size: 25px;
+    color: #303030;
+    margin: 20px 0;
+}
+
+p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+span{
+    padding-left: 2px;
+    letter-spacing: 3px;
+    font-size: 22px;
+    font-family: 'Satisfy', cursive;
+}
+
+section{
+    position: relative;
+    margin-top: 70px;
+}
+
+
+main{
+    margin: 0 auto;
+    width: 600px;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.Euler{
+    position: relative;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%,-10%);
+    border: 3px solid goldenrod;
+    padding: 5px;
+    background: #daa52038;
+}
+
+img{
+    position: relative;
+    top: 5px;
+}
+
+.formula{
+    position: relative;
+    top: -20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    opacity:.5;
+    border: 3px solid rgb(211, 151, 0);
+    background: #dfa30d38;
+}
+
+tbody {
+    display: table;
+    vertical-align: middle;
+}
+
+tr {
+    display: table-row;
+}
+
+td {
+    line-height: 20px;
+    vertical-align: top;
+    padding: 5px 10px;
+    background: #daa52049;
+}
+
+table {
+    position: relative;
+    left: -2;
+    padding: 10px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    background: #daa52038;
+    border: 3px solid goldenrod;
+}
+value{
+    font-size: 16px;
+    background: #daa52049;
+    word-wrap: break-word;
+}
+no{
+    padding: 0 5px;
+    background: #daa5202c;
+}
+
+sup{
+    vertical-align: super;
+    font-size: smaller;
+}
+
+ul{
+    border: 3px solid goldenrod;
+    background: #daa5202c;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+li{
+    margin-left: 30px;
+}
+
+.one{
+    margin-top: 40px;
+}
+
+.box{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#button{
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20em;
+    font-size: 16px;
+    background: #daa5202c;
+}
+
+#button:hover{
+    background: #daa5202c;
+    box-shadow: 1px 1px 5px rgb(255, 183, 0);
+}
+
+#button:focus{
+    outline: none;
+}
+
+#result{
+    height: 100%;
+    width: 80%;
+    border-radius: 12px;
+    background: #daa5202c;
+    border: 3px solid goldenrod;
+    padding: 20px;
+    word-wrap: break-word;
+    overflow-y: auto;
+    margin: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+a:hover{
+    background: #daa5202c;
+}
+
+#result::-webkit-scrollbar{
+    width: 10px;
+	height: 10px;
+	border-radius: 20px;
+    background: #daa5202c;
+    padding-top: 10px;
+}
+
+#result::-webkit-scrollbar-track{
+    border-radius: 20px;
+    background: goldenrod;
+    padding-top: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #7b7979;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+
+@media only screen and (min-width: 1300px) {
+    main{
+	    width:800px;
+	}
+  
+}
+
+@media only screen and (min-width: 700px) {
+  .Euler{
+    position: relative;
+    left: 160px;
+    float: right;
+    margin: 40px 0 0 30px;
+    border: 3px solid goldenrod;
+    padding: 5px;
+    background: #daa52038;
+    }
+}
+
+@media (max-width:700px){
+    main{
+	    width:90%;
+        margin-left: auto;
+        margin-right: auto;
+	}
+}
+
+@media (max-width:400px){
+    main{
+	    width:90%;
+        margin-left: auto;
+        margin-right: auto;
+	}
+
+    table {
+        transform: scale(0.8);
+        position: relative;
+        margin: 10px 0;
+        left: -20px;
+    }
+    .Euler{
+        width: 80%;
+    }
+
+    h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #303030;
+    box-shadow: inset 0 -3px goldenrod;
+    width: 250px;
+    }
+
+} 
+
